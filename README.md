@@ -1,14 +1,14 @@
-Exp2:SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
+# Exp No 2:SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS #
 Date:
 
-AIM: 
+**AIM:**
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 Xilinx 14.7
 Spartan6 FPGA
   
-PROCEDURE:
+**PROCEDURE:**
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -22,16 +22,16 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 
-LOGIC DIAGRAM
+**LOGIC DIAGRAM**
 
-ENCODER
+**ENCODER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module encoder(d,y);
 input[7:0]d;
@@ -43,19 +43,19 @@ endmodule
 
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-2/assets/159506763/8722e82b-3333-45fc-9ade-583b6a326828)
 
 
 
-DECODER
+**DECODER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module decoder(a,b,c,y);
 input a,b,c;
@@ -75,19 +75,19 @@ and g11(y[7],a,b,c);
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-2/assets/159506763/47f6a884-44ec-4a9d-94cc-5403fbbd07e9)
 
 
 
-MULTIPLEXER
+**MULTIPLEXER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/427f75b2-8e67-44b9-ac45-a66651787436)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module multiplexer(s0,s1,s2,d,y);
 input[7:0]d;
@@ -110,19 +110,19 @@ endmodule
 
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-2/assets/159506763/5f686259-8a14-477a-ac46-1a3dca4a3795)
 
 
 
-DEMULTIPLEXER
+**DEMULTIPLEXER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/1c45a7fc-08ac-4f76-87f2-c084e7150557)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module demux(s,d,y);
 input d;
@@ -144,19 +144,19 @@ endmodule
 
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-2/assets/159506763/b1e802c6-9136-4b56-a906-c0358df13937)
 
 
 
-MAGNITUDE COMPARATOR
+**MAGNITUDE COMPARATOR**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/b2fe7a05-6bf7-4dcb-8f5d-28abbf7ea8c2)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module magnitude(a,b,great,less,equal);
 input[1:0]a,b;
@@ -185,11 +185,11 @@ end 
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/hsmukesh/VLSI-LAB-EXP-2/assets/159506763/0985d92c-f26a-4f2a-81b1-c7bbef7b1419)
 
-RESULT:
+**RESULT:**
 
 Thus the simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE is simulated successfully.
 
