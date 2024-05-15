@@ -218,7 +218,6 @@ Thus the simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXE
   
 
 
-RESULT:
-Thus the simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE is simulated successfully.
+
 
 
